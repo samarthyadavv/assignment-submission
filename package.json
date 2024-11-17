@@ -1,0 +1,23 @@
+{
+  "name": "assignment-sub",
+  "version": "1.0.0",
+  "description": "Assignment submission portal backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "punycode": "^2.3.1",
+    "validator": "^13.6.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
